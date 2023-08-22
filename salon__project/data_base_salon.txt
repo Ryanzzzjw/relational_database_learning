@@ -1,0 +1,13 @@
+salon 
+------> customers: customer_id serial primary key
+                   phone varchar(30) unique
+                   name varchar(30)
+
+-------> appointments: appointment_id serial primary key
+                       customer_id int foreign key
+                       service_id int foreign key 
+                       time varchar(30)
+
+-------> services: service_id serial primary key
+                   name varchar(30)
+                         
