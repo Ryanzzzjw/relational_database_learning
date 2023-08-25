@@ -9,3 +9,7 @@ SQL_2: functions
 Worldcup Project: bash scripting and sql
 
 Salon Project: bash scripting and sql
+
+periodic_table project: git bash scripting and sql
+
+number_guess: git bash scripting and sql
